@@ -1,0 +1,65 @@
+/* Estilos mejorados para botones */
+.btn-registro-mejorado {
+    background: linear-gradient(135deg, #e63946, #d62839);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(230, 57, 70, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 180px;
+}
+
+.btn-registro-mejorado:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(230, 57, 70, 0.4);
+}
+
+.btn-registro-mejorado:active {
+    transform: translateY(1px);
+}
+
+.btn-carrito-mejorado {
+    background: linear-gradient(135deg, #457b9d, #1d3557);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(69, 123, 157, 0.3);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-carrito-mejorado:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(69, 123, 157, 0.4);
+}
+
+.btn-carrito-mejorado:active {
+    transform: translateY(1px);
+}
+
+.btn-carrito-mejorado .icono-carrito {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+    margin-right: 8px;
+    transition: transform 0.2s ease;
+}
+
+.btn-carrito-mejorado:hover .icono-carrito {
+    transform: scale(1.1);
+}
